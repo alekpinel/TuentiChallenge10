@@ -1,0 +1,56 @@
+'''
+	28/4/2020
+	Made by Alejandro Pinel Martinez
+    In quarentine
+	Tuenti Challenge 10
+	Challenge 8 - Headache
+'''
+
+First, examinate the hex values of the image:
+
+$ hexdump -C 05-headache.png
+
+00000000  89 50 4e 47 0d 0a 1a 0a  00 00 00 0d 49 48 44 52  |.PNG........IHDR|
+00000010  00 00 02 58 00 00 02 58  08 06 00 00 00 be 66 98  |...X...X......f.|
+00000020  dc 00 00 00 06 62 4b 47  44 00 00 00 00 00 00 f9  |.....bKGD.......|
+00000030  43 bb 7f 00 00 00 09 70  48 59 73 00 00 0b 13 00  |C......pHYs.....|
+00000040  00 0b 13 01 00 9a 9c 18  00 00 00 07 74 49 4d 45  |............tIME|
+00000050  07 e4 02 1c 01 06 30 50  4f b5 6e 00 00 00 36 69  |......0PO.n...6i|
+00000060  54 58 74 43 6f 6d 6d 65  6e 74 00 00 00 00 00 48  |TXtComment.....H|
+00000070  69 20 63 68 61 6c 6c 65  6e 67 65 72 21 20 4e 6f  |i challenger! No|
+00000080  2c 20 74 68 65 20 63 6f  64 65 20 69 73 20 6e 6f  |, the code is no|
+00000090  74 20 68 65 72 65 20 3b  29 d2 9e 9d d4 00 00 20  |t here ;)...... |
+000000a0  00 49 44 41 54 78 da ed  dd d9 92 e3 b6 b2 40 d1  |.IDATx........@.|
+000000b0  92 5c ff ff c7 96 ee 83  2f 7d d8 34 67 62 48 00  |.\....../}.4gbH.|
+000000c0  6b 47 38 aa db 2e 4b 24  86 c4 46 02 04 5f df ef  |kG8...K$..F.._..|
+000000d0  f7 fb 03 00 00 80 64 bc  15 01 00 00 00 c1 02 00  |......d.........|
+000000e0  00 20 58 00 00 00 04 0b  00 00 00 04 0b 00 00 80  |. X.............|
+                     ...
+00004730  00 00 80 60 01 00 00 10  2c 00 00 00 10 2c 00 00  |...`....,....,..|
+00004740  00 82 05 00 00 40 b0 00  00 00 40 b0 00 00 00 08  |.....@....@.....|
+00004750  16 00 00 40 63 fc 1f 50  8b 13 80 9a 18 56 ab 00  |...@c..P.....V..|
+00004760  00 00 00 49 45 4e 44 ae  42 60 82 0a 2b 2b 2b 2b  |...IEND.B`..++++|
+00004770  2b 2b 2b 2b 2b 2b 5b 3e  2b 2b 2b 2b 2b 2b 3e 2b  |++++++[>++++++>+|
+00004780  2b 2b 2b 2b 2b 2b 3e 2b  2b 2b 2b 2b 2b 2b 2b 3e  |++++++>++++++++>|
+00004790  2b 2b 2b 3e 2b 3c 3c 3c  3c 3c 2d 5d 3e 3e 3e 2b  |+++>+<<<<<-]>>>+|
+000047a0  2b 2b 2b 2e 3c 2b 2b 2e  2d 2d 2d 2e 3e 3e 2b 2b  |+++.<++.---.>>++|
+000047b0  2e 3c 3c 2d 2d 2e 3e 2d  2d 2d 2d 2d 2e 3c 2b 2e  |.<<--.>-----.<+.|
+000047c0  2b 2e 3e 3e 2e 3c 3c 2b  2b 2b 2b 2e 3e 2b 2b 2b  |+.>>.<<++++.>+++|
+000047d0  2b 2e 3c 3c 2d 2d 2e 3e  3e 3e 2e 3c 2b 2b 2b 2b  |+.<<--.>>>.<++++|
+000047e0  2e 3c 2b 2b 2b 2b 2b 2b  2e 2d 2d 2d 2e 2b 2b 2b  |.<++++++.---.+++|
+000047f0  2e 2d 2d 2d 2e 2b 2b 2b  2e 3e 3e 2b 2e 2e        |.---.+++.>>+..|
+
+The png ends in the line 4760 but there are some bytes there.
+We discover this strange message:
+
+\n++++++++++[>++++++>+++++++>++++++++>+++>+<<<<<-]>>>++++.<++.---.>>++.<<--.>--
+---.<+.+.>>.<<++++.>++++.<<--.>>>.<++++.<++++++.---.+++.---.+++.>>+..
+
+It is brainfuck language:
+https://en.wikipedia.org/wiki/Brainfuck
+
+We can use an online decoder to translate it:
+https://www.dcode.fr/brainfuck-language
+
+And the solution is:
+THE CODE IS: WOLOLO!!

@@ -1,0 +1,71 @@
+'''
+	30/4/2020
+	Made by Alejandro Pinel Martinez
+    In quarentine
+	Tuenti Challenge 10
+	Challenge 10 - Villa Feristela escape room
+'''
+
+🧙 AVERY THE MAGE:
+I'm not interested in money, I just need some ingredients
+to prepare some barely legal potions. Can you bring me
+an intact healthy brain, 400 ml of blood, some batteries,
+a cookie and a cup of coffee?
+
+- I used 🔦 to discover the hidden ring
+🔦 -a
+
+- I take the crown and gave it to Poseidon.
+
+🧜 POSEIDON THE SEA KING:
+Oh! That's my crown! Thank you Inspector!
+Now that I have my crown, I'm a real king again.
+Take this magnifying glass as a gift so you can become a real detective!
+You got a magnifying glass. Use it to read objects up close.
+
+- With the magnifying glass, I read the poem in the paper roll (real treasure in
+ this difficult times) and I said to the vampire:
+         LOOK AT THIS CROWN I STOLE IT FOR YOU
+
+🧟 ELLIOTT THE ZOMBIE:
+Okay so here is the riddle.
+   I went to the zombie market to buy some food to throw
+   the perfect zombie party. I bought X brains.
+   If I divide them between 2 zombies there will be 1 remaining brains.
+   If I divide them between 3 zombies there will be 2 remaining brains.
+   If I divide them between 4 zombies there will be 3 remaining brains.
+   If I divide them between 5 zombies there will be 4 remaining brains.
+   If I divide them between 6 zombies there will be 5 remaining brains.
+   But if I divide them between 7 zombies there won't be any brains left!
+   Do you know the minimum number X of brains I bought?
+
+
+- I said to the zombie "119":
+🗣 119 | 🧟
+
+- I used "CONTROL + Z" and the genie woke up
+
+🧙 AVERY THE MAGE:
+ It's a ladybird!
+🧙 AVERY THE MAGE:
+ I don't know where it is exactly. It looks like a dark wet place.
+ like a hole... Sorry but I can't see anything else.
+
+- I introduced myself in the dark hole of the restroom and searched for a ladybird
+🚶 🕳
+✋ 🐞
+
+🧚 NAVI THE FAIRY:
+ Thank you very much Inspector Shell. You solved the mistery!
+ But please, don't say a word about Little Labi to nobody: PetsAreNotAllowedInVillaFeristela
+
+- Is this... THE CODE???
+
+Actions I found
+🔦 - ls
+🚶 - cd
+✋ - use with command (executable file)
+💬 - use with executable file
+🔎 - use with readable file
+🗣 - echo
+🎒 - use to display the bag
