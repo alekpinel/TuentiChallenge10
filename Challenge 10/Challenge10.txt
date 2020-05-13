@@ -1,10 +1,22 @@
 '''
 	30/4/2020
 	Made by Alejandro Pinel Martinez
-    In quarentine
+	In quarentine
 	Tuenti Challenge 10
 	Challenge 10 - Villa Feristela escape room
 '''
+
+We enter in the castle that is in a remote server:
+$ ssh castle@52.49.91.111 -p 22000
+$ password: castle
+
+- It is too dark, so I use my flaslight and the adventure start:
+
+$ 🔦
+
+- When I talked with the steward, he says that I should talk to Navi in door 101.
+
+- She says that something has been stealed and she needs the mage crystal ball.
 
 🧙 AVERY THE MAGE:
 I'm not interested in money, I just need some ingredients
@@ -12,10 +24,14 @@ to prepare some barely legal potions. Can you bring me
 an intact healthy brain, 400 ml of blood, some batteries,
 a cookie and a cup of coffee?
 
-- I used 🔦 to discover the hidden ring
-🔦 -a
+- So I had a quest!
+- One by one, I solved the problems of all the others guests and collect their
+meals as rewards:
 
-- I take the crown and gave it to Poseidon.
+- With the ghost, I used 🔦 to discover the hidden ring
+$ 🔦 -a
+
+- I took the crown and gave it to Poseidon.
 
 🧜 POSEIDON THE SEA KING:
 Oh! That's my crown! Thank you Inspector!
@@ -41,7 +57,7 @@ Okay so here is the riddle.
 
 
 - I said to the zombie "119":
-🗣 119 | 🧟
+$ 🗣 119 | 🧟
 
 - I used "CONTROL + Z" and the genie woke up
 
